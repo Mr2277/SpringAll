@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Eureka-Client" />
+        <module name="Eureka-Service" />
+        <module name="Server-Consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Eureka-Client" target="1.8" />
+      <module name="Eureka-Service" target="1.8" />
+      <module name="Server-Consumer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
